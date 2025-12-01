@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "setup-core-infrastructure/frontend/index.js",
+      "content": "import React from 'react';\nimport ReactDOM from 'react-dom';\n\nconst App = () => {\n  return <div>Hello World!</div>;\n};\n\nReactDOM.render(<App />, document.getElementById('root'));"
+    },
+    {
+      "path": "setup-core-infrastructure/backend/main.py",
+      "content": "from fastapi import FastAPI\n\napp = FastAPI()\n\n@app.get('/')\ndef read_root():\n    return {\n        \"message\": \"Welcome to FastAPI\"\n    }"
+    },
+    {
+      "path": "integrate-cms/frontend/index.js",
+      "content": "import React from 'react';\nimport ReactDOM from 'react-dom';\n\nconst App = () => {\n  return <div>Hello World!</div>;\n};\n\nReactDOM.render(<App />, document.getElementById('root'));"
+    },
+    {
+      "path": "integrate-cms/backend/main.py",
+      "content": "from fastapi import FastAPI\n\napp = FastAPI()\n\n@app.get('/')\ndef read_root():\n    return {\n        \"message\": \"Welcome to FastAPI\"\n    }"
+    },
+    {
+      "path": "implement-user-authentication/frontend/index.js",
+      "content": "import React from 'react';\nimport ReactDOM from 'react-dom';\n\nconst App = () => {\n  return <div>Hello World!</div>;\n};\n\nReactDOM.render(<App />, document.getElementById('root'));"
+    },
+    {
+      "path": "implement-user-authentication/backend/main.py",
+      "content": "from fastapi import FastAPI\n\napp = FastAPI()\n\n@app.get('/')\ndef read_root():\n    return {\n        \"message\": \"Welcome to FastAPI\"\n    }"
+    },
+    {
+      "path": "develop-responsive-design/frontend/index.js",
+      "content": "import React from 'react';\nimport ReactDOM from 'react-dom';\n\nconst App = () => {\n  return <div>Hello World!</div>;\n};\n\nReactDOM.render(<App />, document.getElementById('root'));"
+    },
+    {
+      "path": "develop-responsive-design/backend/main.py",
+      "content": "from fastapi import FastAPI\n\napp = FastAPI()\n\n@app.get('/')\ndef read_root():\n    return {\n        \"message\": \"Welcome to FastAPI\"\n    }"
+    },
+    {
+      "path": "implement-article-management/frontend/index.js",
+      "content": "import React from 'react';\nimport ReactDOM from 'react-dom';\n\nconst App = () => {\n  return <div>Hello World!</div>;\n};\n\nReactDOM.render(<App />, document.getElementById('root'));"
+    },
+    {
+      "path": "implement-article-management/backend/main.py",
+      "content": "from fastapi import FastAPI\n\napp = FastAPI()\n\n@app.get('/')\ndef read_root():\n    return {\n        \"message\": \"Welcome to FastAPI\"\n    }"
+    },
+    {
+      "path": "implement-search-functionality/frontend/index.js",
+      "content": "import React from 'react';\nimport ReactDOM from 'react-dom';\n\nconst App = () => {\n  return <div>Hello World!</div>;\n};\n\nReactDOM.render(<App />, document.getElementById('root'));"
+    },
+    {
+      "path": "implement-search-functionality/backend/main.py",
+      "content": "from fastapi import FastAPI\n\napp = FastAPI()\n\n@app.get('/')\ndef read_root():\n    return {\n        \"message\": \"Welcome to FastAPI\"\n    }"
+    },
+    {
+      "path": "implement-commenting-functionality/frontend/index.js",
+      "content": "import React from 'react';\nimport ReactDOM from 'react-dom';\n\nconst App = () => {\n  return <div>Hello World!</div>;\n};\n\nReactDOM.render(<App />, document.getElementById('root'));"
+    },
+    {
+      "path": "implement-commenting-functionality/backend/main.py",
+      "content": "from fastapi import FastAPI\n\napp = FastAPI()\n\n@app.get('/')\ndef read_root():\n    return {\n        \"message\": \"Welcome to FastAPI\"\n    }"
+    },
+    {
+      "path": "implement-analytics-and-reporting/frontend/index.js",
+      "content": "import React from 'react';\nimport ReactDOM from 'react-dom';\n\nconst App = () => {\n  return <div>Hello World!</div>;\n};\n\nReactDOM.render(<App />, document.getElementById('root'));"
+    },
+    {
+      "path": "implement-analytics-and-reporting/backend/main.py",
+      "content": "from fastapi import FastAPI\n\napp = FastAPI()\n\n@app.get('/')\ndef read_root():\n    return {\n        \"message\": \"Welcome to FastAPI\"\n    }"
+    },
+    {
+      "path": "optimize-for-seo-and-performance/frontend/index.js",
+      "content": "import React from 'react';\nimport ReactDOM from 'react-dom';\n\nconst App = () => {\n  return <div>Hello World!</div>;\n};\n\nReactDOM.render(<App />, document.getElementById('root'));"
+    },
+    {
+      "path": "optimize-for-seo-and-performance/backend/main.py",
+      "content": "from fastapi import FastAPI\n\napp = FastAPI()\n\n@app.get('/')\ndef read_root():\n    return {\n        \"message\": \"Welcome to FastAPI\"\n    }"
+    },
+    {
+      "path": "establish-deployment-and-maintenance-plan/frontend/index.js",
+      "content": "import React from 'react';\nimport ReactDOM from 'react-dom';\n\nconst App = () => {\n  return <div>Hello World!</div>;\n};\n\nReactDOM.render(<App />, document.getElementById('root'));"
+    },
+    {
+      "path": "establish-deployment-and-maintenance-plan/backend/main.py",
+      "content": "from fastapi import FastAPI\n\napp = FastAPI()\n\n@app.get('/')\ndef read_root():\n    return {\n        \"message\": \"Welcome to FastAPI\"\n    }"
+    }
+  ]
+}
